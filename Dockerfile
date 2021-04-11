@@ -1,6 +1,7 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jdk-alpine3.9
 
-RUN apk --update --nocache add nodejs curl && mkdir /usr/src
+RUN apk --update --nocache add curl vim nodejs npm && \
+    mkdir /usr/src
 
 WORKDIR /usr/src
 
