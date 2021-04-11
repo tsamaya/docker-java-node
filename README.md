@@ -18,7 +18,7 @@ openjdk version "1.8.0_275"
 OpenJDK Runtime Environment (IcedTea 3.17.1) (Alpine 8.275.01-r0)
 OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)
 /usr/src # node --version
-v12.22.1
+v14.16.1
 /usr/src # npm --version
 6.14.12
 /usr/src #
